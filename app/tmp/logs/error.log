@@ -1,0 +1,122 @@
+2012-05-31 15:36:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:18 Error: [MissingControllerException] Controller class ContactasController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:36:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:38:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-31 15:38:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Applications/MAMP/htdocs/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-08 02:31:18 Error: [MissingControllerException] Controller class EditController could not be found.
+#0 /Applications/MAMP/htdocs/sample/cake/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-08 02:34:36 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Applications/MAMP/htdocs/sample/cake/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-08 02:34:40 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 /Applications/MAMP/htdocs/sample/cake/PhpProject1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-08 06:58:51 Error: [MissingControllerException] Controller class DoneController could not be found.
+#0 /Applications/MAMP/htdocs/sample/cake/sample1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-12 15:56:34 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'cakebook_practice'" is missing, or could not be created.
+#0 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Model/Model.php(3234): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Model/Model.php(1030): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Model/Model.php(3258): Model->setSource('mtr_sexes')
+#5 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Model/Model.php(2483): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/sample/cake/sample1/app/Controller/ContactsController.php(11): Model->find('list')
+#7 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Controller/Controller.php(865): ContactsController->beforeRender()
+#8 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#9 /Applications/MAMP/htdocs/sample/cake/sample1/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/sample/cake/sample1/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-12 00:31:34 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/MAMP/htdocs/contact/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-12 00:31:53 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'cakebook_practice'" is missing, or could not be created.
+#0 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /Applications/MAMP/htdocs/contact/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(3234): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(1030): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(3258): Model->setSource('mtr_sexes')
+#5 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(2483): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/contact/app/Controller/ContactsController.php(11): Model->find('list')
+#7 /Applications/MAMP/htdocs/contact/lib/Cake/Controller/Controller.php(865): ContactsController->beforeRender()
+#8 /Applications/MAMP/htdocs/contact/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#9 /Applications/MAMP/htdocs/contact/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/contact/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-12 00:32:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/MAMP/htdocs/contact/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-12 00:32:51 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'cakebook_practice'" is missing, or could not be created.
+#0 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /Applications/MAMP/htdocs/contact/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(3234): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(1030): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(3258): Model->setSource('mtr_sexes')
+#5 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(2483): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/contact/app/Controller/ContactsController.php(11): Model->find('list')
+#7 /Applications/MAMP/htdocs/contact/lib/Cake/Controller/Controller.php(865): ContactsController->beforeRender()
+#8 /Applications/MAMP/htdocs/contact/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#9 /Applications/MAMP/htdocs/contact/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/contact/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-12 00:34:06 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database ' cakebook_sample1'" is missing, or could not be created.
+#0 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /Applications/MAMP/htdocs/contact/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(3234): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(1030): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(3258): Model->setSource('mtr_sexes')
+#5 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(2483): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/contact/app/Controller/ContactsController.php(11): Model->find('list')
+#7 /Applications/MAMP/htdocs/contact/lib/Cake/Controller/Controller.php(865): ContactsController->beforeRender()
+#8 /Applications/MAMP/htdocs/contact/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#9 /Applications/MAMP/htdocs/contact/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/contact/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-12 00:34:19 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database ' cakebook_sample1'" is missing, or could not be created.
+#0 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /Applications/MAMP/htdocs/contact/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(3234): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(1030): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(3258): Model->setSource('mtr_sexes')
+#5 /Applications/MAMP/htdocs/contact/lib/Cake/Model/Model.php(2483): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/contact/app/Controller/ContactsController.php(11): Model->find('list')
+#7 /Applications/MAMP/htdocs/contact/lib/Cake/Controller/Controller.php(865): ContactsController->beforeRender()
+#8 /Applications/MAMP/htdocs/contact/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#9 /Applications/MAMP/htdocs/contact/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/contact/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-12 11:54:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/MAMP/htdocs/contact/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
